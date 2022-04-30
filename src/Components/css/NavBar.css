@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.bodyOfNavBar{
+    width: 100vw;
+    height: 3.4vw;
+    /* background-color: rgb(0, 9, 40); */
+    background-color: rgb(0, 22, 53);
+}
+.navFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.navItem{
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 2vw;
+    color: rgb(255, 230, 230);
+    /* color: rgb(16, 15, 44); */
+    list-style: none;
+    margin: 0px 8px 0px 8px;
+    padding: 0;
+}
+.navItem:hover{
+    color: rgb(255, 104, 104);
+}
+.logo{
+    font-family: 'Pacifico';
+    letter-spacing: 3px;
+    cursor: default;
+    font-size: 2.6vw;
+    color: rgb(255, 187, 114);
+    animation: Color 2s ease-out infinite;
+}
+
+
+
+
+
+
+@keyframes Color{
+    0%{
+      color:rgb(255, 187, 114);
+    }
+    50%{
+        color: rgb(255, 226, 194);
+    }
+    
+    100%{
+      color:rgb(255, 187, 114);
+    }
+  }

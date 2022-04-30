@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Berkshire+Swash&family=Caveat&display=swap');
+
+.bodyOfTodo{
+    background-color: rgb(255, 247, 247);
+    height: 92vh;
+    width: 100vw;
+    /* padding-top: 40px; */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.todoContainer{
+    height: fit-content;
+    /* height: 400px; */
+    width: 50vw;
+    border-radius: 10px;
+    background: #fff7f7;
+    box-shadow:  10px 10px 43px #ccc6c6,
+                -10px -10px 43px #ffffff;
+    padding-bottom: 10px;
+    
+}
+.todoListItem{
+    font-size: 2vw;
+    border-radius: 20px;
+    background: #fff7f7;
+    box-shadow:  6px 6px 36px #ccc6c6,
+                -6px -6px 36px #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.632);
+    width: 40vw;
+    margin: 15px auto 15px auto;
+    display: flex;
+    justify-content:space-between;
+}
+.itemsIcons{
+    margin: auto 10px auto 5px;
+    transition: 250ms ease-in-out;
+}
+.itemsIconsSpan{
+    display: flex;
+    justify-content: space-around;
+}
+.itemsIcons:hover{
+    color: red;
+}
+.itemsTodo{
+    margin: auto 5px auto 20px;
+}
+.todoListItemContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-family: 'caveat';
+    max-height: 50vh;
+    overflow-y: scroll;
+    
+}
+.todoHeading{
+    font-size: 3vw;
+    font-weight: 700;
+    background: -webkit-linear-gradient(rgb(92, 80, 80), rgb(0, 22, 53));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    font-family: 'Berkshire Swash';
+    letter-spacing: 3px;
+    cursor: default;
+}
+.addTodoText{
+    width: 20vw;
+    height: 5vh;
+    border: 0.4px solid rgb(0, 22, 53);
+    border-radius: 9px;
+    padding-left: 10px;
+    font-size: 1.5vw;
+    font-family: 'caveat';
+    background-color: rgba(237, 233, 233, 0.696);
+    box-shadow:  6px 6px 36px #ccc6c6,
+                -6px -6px 36px #ffffff;
+}
+.addTodoButton{
+    font-size: 1.6vw;
+    margin: auto 5px auto 30px;
+    border: 1px solid rgb(0, 22, 53);
+    background-color: rgb(0, 22, 53);
+    color: rgb(255, 230, 230);
+    padding: 2px 5px 2px 5px;
+    border-radius: 9px;
+    transition: 200ms ease-in-out;
+    font-weight: 600;
+    width: 15vw;
+    box-shadow:  6px 6px 36px #7e7c7c,
+                -6px -6px 36px #ffffff;
+
+}
+.clearAllButton{
+    font-size: 1.6vw;
+    margin: 30px 5px 30px 30px;
+    border: 1px solid rgb(0, 22, 53);
+    background-color: rgb(0, 22, 53);
+    color: rgb(255, 230, 230);
+    padding: 2px 5px 2px 5px;
+    border-radius: 9px;
+    transition: 200ms ease-in-out;
+    font-weight: 600;
+    width: 30vw;
+    box-shadow:  6px 6px 36px #7e7c7c,
+                -6px -6px 36px #ffffff;
+}
+.clearAllButton:hover{
+    color: #ff8585;    
+}
+.addTodoButton:hover{
+    color: #ff8585;
+}
+.todoContainerEnd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* .......................ScrollBar............................ */
+
+
+::-webkit-scrollbar {
+    width: 0.4vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 7px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(224, 224, 224); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff8585; 
+  }
