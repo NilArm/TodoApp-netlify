@@ -1,3 +1,4 @@
+this Project Was build with React Js , Chakra UI tools and has localStorage implemeted.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
