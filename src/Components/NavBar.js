@@ -1,5 +1,4 @@
 import React from "react";
-import {InfoOutlineIcon} from '@chakra-ui/icons'
 import './css/NavBar.css'
 import InfoIcon from "./InfoIcon";
 
