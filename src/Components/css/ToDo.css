@@ -37,6 +37,7 @@
 .itemsIcons{
     margin: auto 10px auto 5px;
     transition: 250ms ease-in-out;
+    cursor: pointer;
 }
 .itemsIconsSpan{
     display: flex;
@@ -47,6 +48,12 @@
 }
 .itemsTodo{
     margin: auto 5px auto 20px;
+    text-decoration: none;
+}
+.checkedClass{
+    margin: auto 5px auto 20px;
+    color: #b09c9c;
+    font-weight: lighter;
 }
 .todoListItemContainer{
     display: flex;
@@ -55,7 +62,7 @@
     font-family: 'caveat';
     max-height: 50vh;
     overflow-y: scroll;
-    
+    font-weight: bold;
 }
 .todoHeading{
     font-size: 3vw;
@@ -121,6 +128,19 @@
     align-items: center;
 
 }
+.todoCheckBox{
+    margin: 0 0 0 10px;
+    height: 4vh;
+    width: 3vw;
+}
+.noDisplay{
+    display:none
+}
+.yesDisplay{
+    display:block;
+    font-weight: bold;
+}
+
 
 
 /* .......................ScrollBar............................ */

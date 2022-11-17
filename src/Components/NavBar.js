@@ -1,8 +1,9 @@
 import React from "react";
 import {InfoOutlineIcon} from '@chakra-ui/icons'
 import './css/NavBar.css'
-function NavBar(){
+import InfoIcon from "./InfoIcon";
 
+function NavBar(){
 
     return(
         <div className="bodyOfNavBar">
@@ -10,7 +11,7 @@ function NavBar(){
             <li className="navItem logo">Todo</li>
                 <li className="navItem">
                     <ul className="navFlex">
-                        <li className="navItem"><InfoOutlineIcon/></li>
+                        <li className="navItem"><InfoIcon/></li>
                     </ul>
                 </li>
             </ul>
