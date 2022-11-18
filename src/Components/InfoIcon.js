@@ -77,7 +77,7 @@ function InfoIcon(){
                         </ul>
                     </li>
                     <li>
-                        This version is does not support mobile phone resolutions.
+                        This version does not support mobile phone resolutions.
                     </li>
                   </ul>
                 </DrawerBody>
